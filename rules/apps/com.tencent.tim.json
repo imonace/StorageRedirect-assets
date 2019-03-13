@@ -10,7 +10,8 @@
   "authors": [
     "DEVELOPER",
     "CubeSky" ,
-    "Kr328"
+    "Kr328",
+    "imonace"
   ],
   "observers": [
     {
@@ -31,5 +32,21 @@
       "allow_child": false,
       "id": "saved_pictures_0"
     }
-  ]
+  ],
+  "simple_mounts": [
+    {
+      "id": "Bilibili2TIM",
+      "source_package": "tv.danmaku.bili",
+      "target_package": "com.tencent.tim",
+      "paths": [
+        "Android/data/tv.danmaku.bili"
+      ]
+    }
+  ],
+  "simple_mounts_descriptions": {
+    "Bilibili2TIM": {
+      "zh_CN": "尝试修复 <b>Bilibili</b> 无法分享至TIM",
+      "en": "Try to fix <b>Bilibili</b> can't share to TIM"
+    }
+  }
 }
