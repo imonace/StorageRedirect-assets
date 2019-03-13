@@ -39,7 +39,7 @@
       "source_package": "tv.danmaku.bili",
       "target_package": "com.tencent.tim",
       "paths": [
-        "Android/data/tv.danmaku.bili/cache/shareImage"
+        "Android"
       ]
     }
   ],
